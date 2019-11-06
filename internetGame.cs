@@ -64,6 +64,20 @@ namespace internetgame
           {
             continuethegameseventy();
           }
+          
+          else if (continuEE == ("n"))
+          {
+            Console.WriteLine("Ok.. you lost the BATTLE OF INTERNET! YOU WILL EXIT THE GAME!");
+            System.Threading.Thread.Sleep(3000);
+            Environment.Exit(0);
+          }
+          
+          else 
+          {
+            Console.WriteLine("You wrote the wrong command! Please write only y! if you agree and write n! if you disagree.");
+            System.Threading.Thread.Sleep(3000);
+            Environment.Exit(0);
+          }
         }
         
         else if (continu == ("n"))
