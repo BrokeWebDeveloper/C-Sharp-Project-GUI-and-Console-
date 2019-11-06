@@ -12,7 +12,7 @@ namespace internetgame
   {
     static void Main(string[] args)
     {
-      Console.ForegroundColor = ConsoleColor.Red;
+      Console.ForegroundColor = ConsoleColor.Green;
       int lifePoints = 100;
       // declaring strings
       string doyouwantogo;
