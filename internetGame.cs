@@ -8,7 +8,7 @@ using System.Threading;
 // Oooh... I know! namespaces are like packages in Java right? namespace and package BOTH contains class!
 namespace internetgame
 {
-  class internetGame
+  class internetgame
   {
     static void Main(string[] args)
     {
@@ -43,6 +43,8 @@ namespace internetgame
       Console.WriteLine(quest);
       Console.WriteLine(perils);
       Console.WriteLine(toget);
+      Console.WriteLine("At default you will have 100 xp or lifePoints. :");
+      Console.WriteLine(lifePoints);
       Console.WriteLine(doyouwantotgo);
       doyouwantogo = Console.ReadLine();
       // If else statement for doyouwantotgo
@@ -63,11 +65,19 @@ namespace internetgame
             continuethegameseventy();
           }
         }
+        
+        else if (continu == ("n"))
+        {
+          Console.WriteLine("Ok.. you lost the BATTLE OF INTERNET! YOU WILL EXIT THE GAME!");
+          System.Threading.Thread.Sleep(3000);
+          Environment.Exit(0);
+        }
       }
       
       else if (doyouwantogo == ("n!"))
       {
         Console.WriteLine("Ok.. you lost the BATTLE OF INTERNET! YOU WILL EXIT THE GAME!");
+        System.Threading.Thread.Sleep(3000);
         Environment.Exit(0);
       }
       
