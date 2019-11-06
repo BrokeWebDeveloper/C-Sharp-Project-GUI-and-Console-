@@ -28,7 +28,7 @@ namespace internetgame
       string gamingworld = "This is where everybody a gamer stay (ALOT), \n where to the point spent 10 hours a day here. ";
       string plot = "The unknown area of the internet called the Silk Road or Dark Web, \n has started to invade the Internet inc which controls the four area.";
       string quest = "Among the code rubble are an ARMY of Server Technician...\n with their help you can help restore peace..";
-      string perils = "BUT! one does not simply searched the Server Technician as they are in another world called the Real World!";
+      string perils = "BUT! one does not simply search the Server Technician as they are in another world called the Real World!";
       string toget = "To find them you must go to the Internet-RealWorld Portal..";
       string doyouwantotgo = "Do you want to risk the dangers of Internet-RealWorld Portal, \n as they can be unmerciful for ones like you? (y!/n!)";
       // Printing strings
